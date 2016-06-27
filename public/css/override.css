@@ -1,0 +1,92 @@
+.panel {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.panel-default > .panel-heading{
+    border: none;
+    border-bottom: 1px solid #eee;
+    color: #fff;
+    background: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.panel-default > .panel-body{
+    padding: 25px 15px;
+}
+
+.panel-title {
+    font-size: 24px;
+    color: #4C5164;
+}
+
+.panel-footer {
+    background: #F2F4F6;
+    border: none;
+    border-top: 1px solid #eee;
+    color: #4C5164;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+textarea.form-control {
+    height: 109px;
+    resize: none;
+}
+
+.table-control {
+    display: block;
+    width: 100%;
+    height: 44px;
+    padding: 0px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    background-image: none;
+    border: none;
+    border-radius: 0px;
+    outline: none;
+    resize: none;
+}
+
+.table-form>tbody>tr>td,
+.table-form>tbody>tr>th,
+.table-form>tfoot>tr>th,
+.table-form>thead>tr>td {
+    padding: 0 0 4px 0;
+}
+
+.table-form>tbody>tr {
+    background-color: #f9f9f9;
+}
+
+.table>tfoot>tr>td {
+    height: 44px;
+    padding: 12px;
+}
+
+.table > thead > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > th,
+.table > tbody > tr > td,
+.table > tfoot > tr > th,
+.table > tfoot > tr > td  {
+  vertical-align: middle;
+}
+
+.form-inline {
+    display: inline-block;
+}
+
+.pagination {
+    margin: 0;
+}

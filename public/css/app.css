@@ -1,0 +1,126 @@
+body {
+    background: #F7FAFD;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+.pre {
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+    font-size: 1em;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+
+.table-name {
+    width: 55%;
+}
+
+.table-price {
+    width: 15%;
+}
+
+.table-qty {
+    width: 10%;
+}
+
+.table-total {
+    width: 16%;
+}
+
+.table-remove {
+    width: 4%;
+    background: #fff;
+    border-top: 1px solid #fff!important;
+    border-right: 1px solid #fff!important;
+    border-bottom: 1px solid #fff!important;
+}
+
+.table-remove-btn {
+    text-align: center;
+    display: block;
+    height: 44px;
+    padding: 12px;
+    font-size: 20px;
+    line-height: 18px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #fff;
+    color: #C9302C;
+    font-weight: bold;
+}
+
+.table-empty {
+    width: 70%;
+    border-left: 1px solid #fff!important;
+    border-bottom: 1px solid #fff!important;
+}
+
+.table-label {
+    width: 10%;
+    text-align: right;
+}
+
+.table-amount {
+    width: 16%;
+    text-align: right;
+}
+
+.table-text {
+    text-align: right;
+    display: block;
+    height: 44px;
+    padding: 12px;
+    background: #fff;
+}
+
+.table-add_line {
+    text-align: left;
+    cursor: pointer;
+    color: #337AB7;
+}
+.table-discount {
+    padding: 0!important;
+}
+
+.table-discount_input {
+    text-align: right;
+    display: block;
+    width: 100%;
+    height: 44px;
+    padding: 0px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    background-image: none;
+    border: none;
+    border-radius: 0px;
+    outline: none;
+}
+
+.invoice-empty {
+    margin: 100px 0;
+}
+
+.invoice-empty-title {
+    text-align: center;
+}
+
+.error {
+    color: #a94442;
+    margin: 0;
+}
+
+.table-error > textarea,
+.table-error > input {
+    background: #f2dede;
+}
