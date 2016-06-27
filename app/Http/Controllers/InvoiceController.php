@@ -13,7 +13,7 @@ class InvoiceController extends Controller
     public function index()
     {
         $invoices = Invoice::orderBy('created_at', 'desc')
-            ->paginate(10);
+            ->paginate(8);
 
         return view('invoices.index', compact('invoices'));
     }
