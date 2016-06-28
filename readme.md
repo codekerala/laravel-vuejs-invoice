@@ -11,3 +11,8 @@
 `cd laravel-vuejs-invoice`
 
 `composer install`
+
+### On Youtube
+Demo: https://www.youtube.com/watch?v=YLhit7XHi3U
+Development: https://www.youtube.com/watch?v=h6sTdAX6yTs
+
